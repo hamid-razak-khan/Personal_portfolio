@@ -1,0 +1,132 @@
+/* Dark Mode Styles */
+.dark-mode {
+    --primary-color: #ff6b6b;
+    --secondary-color: #ff8e8e;
+    --accent-color: #ffa502;
+    --text-color: #ffffff;
+    --text-light: #e2e2e2;
+    --bg-color: #1a1a2e;
+    --bg-secondary: #16213e;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    --hover-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode .logo h1 {
+    color: #ffffff;
+}
+
+.dark-mode .header {
+    background-color: rgba(26, 26, 46, 0.95);
+}
+
+.dark-mode .nav-links a {
+    color: #ffffff;
+}
+
+.dark-mode .mode-toggle i {
+    color: #ff6b6b;
+}
+
+.dark-mode .menu-toggle i {
+    color: #ff6b6b;
+}
+
+.dark-mode .home-section {
+    background-blend-mode: overlay;
+    background-color: rgba(26, 26, 46, 0.8);
+}
+
+.dark-mode .home-content h1 {
+    color: #ffffff;
+}
+
+.dark-mode .home-content h2 {
+    color: #e2e2e2;
+}
+
+.dark-mode .skill-card-front {
+    background-color: var(--bg-secondary);
+    color: #ffffff;
+}
+
+.dark-mode .skill-card-front i {
+    color: #ff6b6b;
+}
+
+.dark-mode .skill-pill {
+    background-color: var(--bg-secondary);
+    color: #ff6b6b;
+}
+
+.dark-mode .project-card,
+.dark-mode .certification-card,
+.dark-mode .modal-content {
+    background-color: var(--bg-secondary);
+    color: #ffffff;
+}
+
+.dark-mode .project-content h3,
+.dark-mode .certification-content h3,
+.dark-mode .modal-content h2,
+.dark-mode .modal-content h3 {
+    color: #ff6b6b;
+}
+
+.dark-mode .project-tags span {
+    background-color: var(--bg-color);
+    color: var(--text-light);
+}
+
+.dark-mode .contact-item .icon {
+    background-color: var(--bg-color);
+    color: #ff6b6b;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+    background-color: var(--bg-secondary);
+    border-color: #333;
+    color: var(--text-color);
+}
+
+.dark-mode .form-group label {
+    background-color: var(--bg-secondary);
+    color: var(--text-light);
+}
+
+.dark-mode .nav-links.active {
+    background-color: rgba(26, 26, 46, 0.95);
+}
+
+.dark-mode .about-text h3,
+.dark-mode .skill-category h3 {
+    color: #ff6b6b;
+}
+
+.dark-mode .education-table th {
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+.dark-mode .education-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .education-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .project-image img,
+.dark-mode .modal-image img {
+    background-color: #16213e;
+}
+
+.dark-mode .footer {
+    background-color: #ff6b6b;
+}
+
+@media (max-width: 992px) {
+    .dark-mode .nav-links {
+        background-color: rgba(26, 26, 46, 0.95);
+    }
+} 
